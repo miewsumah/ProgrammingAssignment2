@@ -10,7 +10,7 @@ set <- function(y){
   inv <<- NULL
 }
 get <- function()x
-setinverse <- function(cmatrix) inv <<- cmatrix
+setinverse <- function(cmatrix) inv <<- inverse
 getinverse <- function() inv 
 list (set=set, get=get, 
       setinverse=setinverse, 
