@@ -27,8 +27,8 @@ if (!is.null(inv)){
   message("getting cached data")
   return(inv)
 }
-aner <- x$get()
-inv <- solve(aner,...)
+ainv <- x$get()
+inv <- solve(ainv,...)
 x$setinverse(inv)
 inv
 }
